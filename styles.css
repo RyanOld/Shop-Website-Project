@@ -1,0 +1,171 @@
+/*Root / Main Styling
+---------------------------------*/
+/* @font-face {
+  
+} */
+body {
+    margin : 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Title and Main Navigation
+---------------------------------*/
+.title-bar {
+  background : #112;
+}
+.title {
+  /* color : ivory ; */
+  margin : 0;
+}
+.title a {
+  text-decoration : none;
+  color : ivory;
+  padding : 1rem;
+  padding-bottom: 0.2rem;
+}
+/*Main Navigation
+-----------------------------------*/
+.main-nav .expandable-nav {
+  margin : 0;
+  margin-left : 1rem;
+  padding : 0;
+}
+.main-nav li {
+  list-style-type : none;
+  margin : 0;
+}
+.main-nav ul {
+  padding : 0;
+}
+.main-nav .expandable {
+  display : inline-block;
+  padding : 0.5rem;
+  background : green;
+}
+.main-nav .expandable:hover {
+  opacity : 0.6;
+  /* visibility: visible; */
+}
+.hidden-nav-item {
+  display : none;
+  visibility: hidden;
+}
+/* .hidden-nav-item a:hover {
+  visibility : visible;
+  display : flex;
+} */
+.main-nav a {
+  text-decoration : none;
+  color : ivory;
+  padding : 0.5rem 1rem;
+}
+
+/*Main Content
+---------------------------------*/
+/* .main-content {
+  margin : 0;
+} */
+.field {
+    display : grid;
+    grid-template-columns: 5fr 1fr;
+    /* margin-top : 1rem; */
+}
+/* @media (max-width : 700px) {
+  .field {
+    display : block; 
+  }
+} */
+.content {
+  background : rgba(191, 248, 191, 0.13);
+}
+.content-heading h2 {
+  color : #222;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+  font-size : 1.5rem;
+  font-weight : 700;
+  margin : 0 auto;
+  padding : 0;
+  text-align : center;
+}
+.content-heading h3 {
+  padding : 0;
+  margin : 0;
+  color : grey;
+  font-weight : 500;
+  text-align : center;
+  font-size : 0.7rem;
+}
+.marketplace {
+    width : 93%;
+    max-width : 850px;
+    display : flex;
+    flex-wrap : wrap;
+    justify-content: center;
+    margin : 0 auto;
+    margin-top : 1rem;
+}
+
+/*Figure Styling
+---------------------------------*/
+.product {
+    /* height : 30%; */
+    /* width : 30%; */
+    margin : 0 0;
+    background : rgba(200, 200, 210, 0.5);
+    padding : 0.5rem;
+    margin : 0.4rem;
+    /* box-shadow: 1px 1px 1px 1px #aaa , -1px -1px 1px 1px #aaa; */
+    border-radius : 10%;
+    /* border: 2rem green; */
+    /* text-decoration : none; */
+}
+.product a {
+  text-decoration : none;
+}
+.product:hover {
+  opacity : 0.8;
+}
+.photo-wrapper {
+    width : 10rem;
+    height : 10rem;
+    /* width : 30%; */
+    /* max-width : 160px; */
+    /* max-height : 160px; */
+    margin : 0;
+}
+.photo-wrapper img {
+    /* display : inline-block; */
+    width : 100%;
+    height : 100%;
+    object-fit : contain;
+}
+.product-name {
+    text-align : center;
+    color : #324;
+    /* text-decoration : none; */
+  }
+/*Toggleable Sidebar
+---------------------------------*/
+.sidebar {
+  display : flex;
+}
+/* .sidebar-toggler {
+  position : relative;
+  top : 300px;
+} */
+/* .button-container {
+} */
+.sidebar-toggler {
+  height : 3rem;
+  width : 1rem;
+  border-radius : 50% 0 0 50%;
+  align-self: center;
+  position : relative;
+  right : 3rem;
+}
+/*Root / Main Styling
+---------------------------------*/
+
+
+/*Root / Main Styling
+---------------------------------*/

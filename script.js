@@ -1,0 +1,1 @@
+var objectSelector = document.querySelector(".")
